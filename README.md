@@ -1,32 +1,60 @@
-# React + TypeScript + Vite
+# Gandipally Shravan Kumar — AI & Full-Stack Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> **AI • Full-Stack • HealthTech • CivicTech • IoT • Open Source**
 
-Currently, two official plugins are available:
+A premium, interactive personal portfolio for **Gandipally Shravan Kumar**, designed to present my journey as a Computer Science Engineering student, AI-focused developer, full-stack builder, technical contributor, and community-oriented technology enthusiast.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The portfolio is built around one central idea:
 
-## React Compiler
+> **"I don't just learn technology. I use technology to build things that matter."**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 🌐 Portfolio
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+| Platform | Link |
+|---|---|
+| 🌎 Live Portfolio | `[https://gandipallyshravankumar.netlify.app/]` |
+| 💼 LinkedIn | [linkedin.com/in/gandipallyshravankumar](https://www.linkedin.com/in/gandipallyshravankumar/) |
+| 🐙 GitHub | `[https://github.com/GShravann/]` |
+| ✉️ Email | `[shravankumargandipally@gmail.com]` |
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+---
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+# 👨‍💻 About Me
+
+I'm **Gandipally Shravan Kumar**, a Computer Science Engineering undergraduate based in Hyderabad, India, with a strong interest in:
+
+- Artificial Intelligence
+- Generative AI
+- Full-Stack Development
+- Python Backend Development
+- HealthTech
+- CivicTech
+- IoT
+- Open Source
+- Social-impact technology
+- UI/UX
+
+My technical journey began from an **Electronics background**, followed by a transition into Computer Science and software development.
+
+Initially, programming and software development were challenging. Through continuous learning, experimentation, and practical development, I progressed through:
+
+```text
+Electronics
+     ↓
+Programming Fundamentals
+     ↓
+Web Development
+     ↓
+Full-Stack Development
+     ↓
+Artificial Intelligence
+     ↓
+Generative AI
+     ↓
+HealthTech & CivicTech
+     ↓
+Open Source & Real-World Systems
+     ↓
+Technical Leadership
