@@ -1,0 +1,210 @@
+export type Cert = {
+  id: string;
+  issuer: string;
+  title: string;
+  year: string;
+  skills: string[];
+  metric?: string;
+  metricLabel?: string;
+  credentialUrl?: string;
+  verified: boolean;
+  color: string;
+  emoji: string;
+};
+
+export const CERTS: Cert[] = [
+  {
+    id: 'oracle-oci',
+    issuer: 'Oracle',
+    title: 'OCI 2025 AI Foundations Associate',
+    year: '2025',
+    skills: ['Oracle Cloud Infrastructure', 'AI Foundations', 'Cloud AI Services'],
+    metric: 'OCI',
+    metricLabel: 'Certified',
+    credentialUrl: '[ADD LINK]',
+    verified: true,
+    color: '#F80000',
+    emoji: '☁️',
+  },
+  {
+    id: 'mongodb-overview',
+    issuer: 'MongoDB',
+    title: 'MongoDB Overview: Core Concepts & Architecture',
+    year: '2026',
+    skills: ['NoSQL architecture', 'Document data modeling', 'Indexing & scaling'],
+    metric: 'Jul 2026',
+    metricLabel: 'Issued',
+    credentialUrl: 'https://learn.mongodb.com',
+    verified: true,
+    color: '#47A248',
+    emoji: '🍃',
+  },
+  {
+    id: 'mongodb-basics',
+    issuer: 'MongoDB',
+    title: 'MongoDB Basics for Students',
+    year: '2026',
+    skills: ['MongoDB fundamentals', 'CRUD operations', 'Database design'],
+    metric: 'Jul 2026',
+    metricLabel: 'Issued',
+    credentialUrl: 'https://learn.mongodb.com',
+    verified: true,
+    color: '#47A248',
+    emoji: '🍃',
+  },
+  {
+    id: 'nptel-iot',
+    issuer: 'NPTEL / IIT',
+    title: 'Internet of Things',
+    year: '2025',
+    skills: ['IoT architecture', 'Sensor integration', 'Cloud connectivity', 'Embedded systems'],
+    metric: 'NPTEL',
+    metricLabel: 'Certified',
+    credentialUrl: '[ADD LINK]',
+    verified: true,
+    color: '#0EA5E9',
+    emoji: '📡',
+  },
+  {
+    id: 'hack2skill-genai',
+    issuer: 'Google Cloud / Hack2skill',
+    title: 'Gen AI Exchange Hackathon',
+    year: '2025',
+    skills: ['Generative AI', 'Google Cloud AI', 'Hackathon finalist'],
+    metric: 'GenAI',
+    metricLabel: 'Certified',
+    credentialUrl: '[ADD LINK]',
+    verified: true,
+    color: '#4285F4',
+    emoji: '🏆',
+  },
+  {
+    id: 'google-cloud-labs',
+    issuer: 'Google Cloud / Hack2skill',
+    title: 'Google Cloud AI Labs — GenAI Workshop',
+    year: '2026',
+    skills: ['Gemini CLI', 'MCP servers & AI agents', 'GenAI developer workflows'],
+    metric: 'GenAI',
+    metricLabel: 'Focus',
+    verified: false,
+    color: '#4285F4',
+    emoji: '🌐',
+  },
+  {
+    id: 'viswam-excellence',
+    issuer: 'VISWAM.AI',
+    title: 'Summer of AI — Certificate of Excellence',
+    year: '2025',
+    skills: ['Large Language Models', 'AI product development', 'Open-source collaboration'],
+    metric: 'Tech Lead',
+    metricLabel: 'Role Earned',
+    verified: true,
+    color: '#6A0572',
+    emoji: '⭐',
+  },
+  {
+    id: 'deloitte-forage',
+    issuer: 'Deloitte / Forage',
+    title: 'Data Analytics Job Simulation',
+    year: '2025',
+    skills: ['Data analytics', 'Business intelligence', 'Professional simulation'],
+    metric: 'Analytics',
+    metricLabel: 'Simulated',
+    credentialUrl: '[ADD LINK]',
+    verified: true,
+    color: '#86BC25',
+    emoji: '📈',
+  },
+  {
+    id: 'zoho-dsba',
+    issuer: 'Zoho',
+    title: 'Data Science — DSBA Program',
+    year: '2026',
+    skills: ['Data science fundamentals', 'Machine learning', 'Data visualization'],
+    metric: 'DSBA',
+    metricLabel: 'Program Track',
+    credentialUrl: '[ADD LINK]',
+    verified: true,
+    color: '#E42527',
+    emoji: '🔬',
+  },
+  {
+    id: 'isl-excellence',
+    issuer: 'India Space Lab / MSDE Skill India',
+    title: 'ISL Research Internship — Appreciation of Excellence',
+    year: '2026',
+    skills: ['Drone technology', 'Remote sensing & GIS', 'Rocketry & CubeSat'],
+    metric: 'Excellence',
+    metricLabel: 'Award Level',
+    verified: true,
+    color: '#0B3D91',
+    emoji: '🚀',
+  },
+  {
+    id: 'hackers-gurukul',
+    issuer: 'Hackers Gurukul',
+    title: 'Cyber Security Workshop',
+    year: '2025',
+    skills: ['Cybersecurity fundamentals', 'Security awareness', 'Ethical hacking basics'],
+    metric: 'Security',
+    metricLabel: 'Workshop',
+    verified: false,
+    color: '#EF4444',
+    emoji: '🔐',
+  },
+  {
+    id: 'rajya-puraskar',
+    issuer: 'Bharat Scouts & Guides',
+    title: 'Rajyapuraskar Award',
+    year: '2019',
+    skills: ['Leadership & teamwork', 'Community service', 'Youth development'],
+    metric: 'Highest',
+    metricLabel: 'Scout Award',
+    verified: true,
+    color: '#F59E0B',
+    emoji: '🏅',
+  },
+];
+
+export const ASK_SHRAVAN_KB = [
+  {
+    triggers: ['ai projects', 'ai work', 'artificial intelligence', 'what ai', 'machine learning'],
+    answer: 'Shravan has worked on several AI projects: **Ova AI** (privacy-first health assistant using LLaMA 3), **CropDoc AI** (crop disease diagnosis for Telugu-speaking farmers using Hugging Face), and **Mitra AI** (AI-powered women\'s safety platform). He served as Tech Lead at VISWAM.AI\'s Summer of AI internship and reached the AI HackDay 2025 finals.',
+  },
+  {
+    triggers: ['healthcare', 'health tech', 'medical', 'healthtech'],
+    answer: 'Healthcare is a core domain for Shravan. He built **Ova AI** — a privacy-first health assistant using LLaMA 3 — and contributed to **eHRS** (Electronic Health Record System) used at real community medical camps in Telangana. He personally volunteered at a live medical camp using the system he helped build.',
+  },
+  {
+    triggers: ['civic tech', 'safety', 'mitra', 'public safety', 'women safety'],
+    answer: '**Mitra AI** is Shravan\'s civic technology project — an AI-powered smart kiosk and safety platform for women\'s safety. It includes SOS emergency alerts, location-based safety scoring, a Central Security Command Center, and incident reporting. Built with FastAPI and SQLAlchemy at Swecha Telangana.',
+  },
+  {
+    triggers: ['internship', 'experience', 'work experience', 'internships'],
+    answer: 'Shravan has completed 4+ internships: **VISWAM.AI** (AI Tech Lead, 2025), **Swecha Telangana** (Full Stack Engineer, 2026 — ongoing), **India Space Lab** (Research Intern, 2026), and **Zoho** (Data Science, 2026). He also leads delegate affairs at **NNRG MUN** (240+ delegates).',
+  },
+  {
+    triggers: ['tech stack', 'technologies', 'skills', 'what can you build', 'programming'],
+    answer: 'Shravan\'s core stack: **Python + FastAPI** for backend, **HTML/CSS/JavaScript/React** for frontend, **LLaMA 3/Hugging Face** for AI, **SQLAlchemy/SQLite/MongoDB** for databases. Domain expertise in HealthTech, CivicTech, IoT, and Open Source. Certified in MongoDB, OCI AI Foundations, NPTEL IoT.',
+  },
+  {
+    triggers: ['open source', 'opensource', 'contribute', 'contribution'],
+    answer: 'Open source is central to Shravan\'s work. Through **Swecha Telangana**, he contributed to **eHRS** (electronic health records), **Mitra AI** (women\'s safety), and **fuelReach** (emergency fuel delivery). His GitHub profile: github.com/GShravann',
+  },
+  {
+    triggers: ['fuelreach', 'fuel', 'emergency fuel'],
+    answer: '**fuelReach** is an on-demand emergency fuel delivery platform connecting vehicle owners, petrol pumps, and delivery agents. Features real-time status tracking (REQUESTED → ACCEPTED → ON THE WAY → REACHED → DELIVERED) with multi-role dashboards. Built at Swecha Telangana as open-source.',
+  },
+  {
+    triggers: ['leadership', 'mun', 'scouts', 'team', 'manage'],
+    answer: 'Shravan\'s leadership experience includes: **NNRG MUN Head of Delegate Affairs** (organizing 240+ delegates, 4 committees), **NNRG MUN Design Lead** (2025), **Bharat Scouts Rajyapuraskar** (highest scout award, 2019), and **VISWAM.AI Tech Lead** (8-week AI internship). He balances engineering with community leadership.',
+  },
+  {
+    triggers: ['contact', 'reach', 'hire', 'opportunity', 'available', 'connect'],
+    answer: 'Shravan is **open to internship and engineering opportunities**. You can connect via **LinkedIn**: linkedin.com/in/gandipallyshravankumar/ or use the contact form in this portfolio. He is especially interested in roles in HealthTech, CivicTech, AI development, and Full-Stack engineering.',
+  },
+  {
+    triggers: ['who', 'about', 'tell me', 'background', 'story'],
+    answer: 'Gandipally Shravan Kumar is a **CSE undergraduate** from Hyderabad, India — an Electronics & Communication diploma holder who made a lateral entry into Computer Science. He builds AI systems for healthcare, public safety, and social impact. His journey: Electronics → CS → Full-Stack → AI → HealthTech → CivicTech → Open Source.',
+  },
+];
